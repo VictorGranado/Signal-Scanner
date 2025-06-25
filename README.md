@@ -1,4 +1,4 @@
-# ESP32-Scanner-Sniffer
+# Signal Scanner
 
 * **Project Title**
   Wi-Fi & BLE Scanner/Monitor/Disruptor + nRF24 Sniffer on ESP32
