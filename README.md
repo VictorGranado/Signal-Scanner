@@ -153,7 +153,7 @@ The user interface combines a **20×4 I²C LCD** (for text menus and status) and
 |----------------------|--------------|
 | ESP32-WROOM-DA       | $5–10        |
 | AD8317 RF Detector   | $15–20       |
-| EMF Detector Circuit | $2–5         |
+| EMF Detector Circuit | $14         |
 | ACS712-30A           | $3–5         |
 | Voltage Divider      | $2–3         |
 | 20×4 I²C LCD         | $5–10        |
@@ -161,7 +161,7 @@ The user interface combines a **20×4 I²C LCD** (for text menus and status) and
 | Push Buttons/Wiring  | <$2          |
 | Li-Ion Battery + PCB | $8–12        |
 | Charger Module       | $2–4         |
-| **Total**            | ~$44–76      |
+| **Total**            | ~$56–85      |
 
 ---
 
