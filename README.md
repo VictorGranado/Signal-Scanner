@@ -47,15 +47,6 @@ The user interface combines a **20×4 I²C LCD** (for text menus and status) and
   *LCD*: wiring guide + amps value.  
   *OLED*: scrolling absolute current plot.
 
-- **Welcome Screen**  
-Displays startup greeting on LCD:  
-Hello user
-Welcome to the
-Signal Scanner v1.0
-Initializing...
-
-On OLED: animated antenna icon with concentric waves.
-
 ---
 
 ### Dynamic User Interface
