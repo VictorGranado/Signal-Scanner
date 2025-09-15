@@ -35,7 +35,7 @@ The user interface combines a **20×4 I²C LCD** (for text menus and status) and
 - **EMF Meter (Parallel)**  
   Simple EMF detection circuit (antenna + rectifier) connected in parallel with the main board.  
   Provides relative measurement of electromagnetic field strength.  
-  Display via LEDs.
+  Displayed via LEDs.
 
 - **Voltage Meter (0–25 V)**  
   Uses a divider module and ADC scaling.  
