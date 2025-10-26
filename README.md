@@ -127,17 +127,14 @@ A parallel passive EMF detector monitors ambient electromagnetic activity.
 
 ---
 
-### **8. Frequency Counter**
+### **8. Frequency Counter (Parallel)**
 Measures signal frequency via SMA or wired input.  
-**LCD:** displays frequency in Hz/MHz.  
-**OLED:** real-time bar indicator or waveform.  
+**LCD:** displays frequency in Hz/MHz.   
 **Ideal for:** oscillators, PWM generators, communication signals.
 
 **Connection:**
 - **SMA Input:** strong RF or square-wave sources  
 - **Wired Input:** logic-level test points  
-- **Input → GPIO15 (recommended)**  
-(Use a voltage limiter for >3.3 V inputs)
 
 ---
 
