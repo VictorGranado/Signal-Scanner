@@ -180,8 +180,8 @@ Measures signal frequency via SMA or wired input.
 | Current | ACS712 output | GPIO35 | 5 V module, 66 mV/A |
 | Continuity | Probe+ = GPIO25, Probe− = GPIO32 | 10 kΩ pulldown to GND |
 | RF Sniffer | AD8317 Vout | GPIO33 | 0.2–1.8 V typical |
-| EMF Reader | Parallel analog | Spare ADC | Relative measurement |
-| Frequency Counter | SMA / wire input | GPIO15 | Pulse input with limiter |
+| EMF Reader | Parallel analog | - | Relative measurement |
+| Frequency Counter | SMA / wire input | - | Pulse input with limiter |
 
 ---
 
@@ -233,10 +233,8 @@ Measures signal frequency via SMA or wired input.
 ## **Future Enhancements**
 
 - SD card logging for data collection  
-- BLE data streaming to dashboards  
 - Automatic range adjustment  
-- RF sweep analyzer capability  
-- Enclosure with integrated antennas  
+- RF sweep analyzer capability   
 
 ---
 
