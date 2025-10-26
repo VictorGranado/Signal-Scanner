@@ -165,8 +165,8 @@ Measures signal frequency via SMA or wired input.
 | ACS712-30A | Current sensing | Analog |
 | Voltage Divider Module | Scales input to ADC range | Analog |
 | Continuity Circuit | Resistance / continuity check | GPIO25 + ADC32 |
-| EMF Detector | Field strength indication | Parallel analog |
-| Frequency Counter | Pulse input (SMA / wired) | GPIO15 |
+| EMF Detector | Field strength indication | Parallel |
+| Frequency Counter | Pulse input (SMA / wired) | Parallel |
 | Mode & Scroll Buttons | UI control | GPIO2, GPIO4 |
 | Li-Ion Battery + Charger | Power source | — |
 
