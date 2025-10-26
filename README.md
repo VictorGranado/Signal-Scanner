@@ -1,3 +1,101 @@
+# **Signal Scanner v1.0**
+
+A multifunction handheld diagnostic and signal analysis tool for wireless scanning, RF detection, and basic electrical measurements.
+
+---
+
+## **Project Overview**
+
+The **Signal Scanner v1.0** is a comprehensive diagnostic instrument built around the **ESP32-WROOM-DA** module.  
+It combines **digital wireless analysis** (Wi-Fi, BLE, RF, EMF) with **electrical measurement capabilities** (Voltage, Current, Continuity, Frequency Counter) — all displayed through a dual-screen user interface.
+
+Designed for **embedded developers, electronics hobbyists, and field engineers**, it provides a portable, menu-driven platform for analyzing and visualizing multiple signal domains in real time.
+
+The device features:
+- **20×4 I²C LCD** → text display, measurements, and mode info  
+- **0.96″ OLED (SSD1306)** → live waveforms, bar graphs, and visual indicators  
+- **MODE** and **SCROLL** buttons for navigation and interaction  
+
+---
+
+## **Features**
+
+### **1. Wi-Fi Scanner**
+Scans for nearby wireless access points.  
+**LCD:** displays SSID, RSSI (signal strength), channel, and encryption type.  
+**OLED:** bar graph representation of the top RSSI values.
+
+**Values:**
+- **SSID:** network name  
+- **RSSI:** signal strength in dBm (0 = strongest, −100 = weakest)  
+- **CH:** Wi-Fi channel  
+- **ENC:** encryption type (Open, WPA2, WPA3, etc.)
+
+---
+
+### **2. BLE Scanner**
+Performs a passive BLE device scan using Kolban’s BLE library.  
+**LCD:** shows device name (or MAC tail) and signal strength.  
+**OLED:** bar graph of top device RSSI levels.
+
+**Values:**
+- **Device Name / MAC:** identifier  
+- **RSSI (dBm):** received signal strength
+
+---
+
+### **3. Voltage Meter (0–25 V)**
+Reads DC voltage via a voltage divider module and plots results on the OLED.  
+**LCD:** shows wiring reference and live voltage reading.  
+**OLED:** plots voltage (0–25 V) in real time.
+
+**Connection:**
+- **Probe+ → Voltage Divider Input**  
+- **Probe− → GND**  
+- **Divider output → GPIO34 (ADC1_CH6)**  
+
+**Formula:**
+
+Vin = Vadc × Divider Ratio
+
+(Default: 5× module, optional 2× external divider)
+
+---
+
+### **4. Current Meter (ACS712-30A)**
+Measures DC/AC current flow using the ACS712 Hall-effect sensor.  
+**LCD:** shows wiring guide, live current, and plot status.  
+**OLED:** real-time current graph (0–30 A scale).
+
+**Connection:**
+- **IP+ → Load supply input**  
+- **IP− → Load output**  
+- **Vout → ADC35 (ADC1_CH7)**  
+
+**Calibration:**  
+Long-press MODE in this mode to perform a **tare** (zero adjustment).
+
+**Formula:**
+
+I = (Vout - Voffset) / 0.066 (where 0.066 = 66 mV/A)
+
+
+---
+
+### **5. Continuity Tester**
+Performs resistance-based continuity detection using a 10 kΩ pulldown reference.  
+**LCD:** displays continuity status (“YES/NO”), resistance, and polarity note.  
+**OLED:** shows an **animated connected wire** when continuity is detected or a **broken wire** when open.
+
+**Connection:**
+- **Red probe → GPIO25 (driven HIGH)**  
+- **Black probe → GPIO32 (ADC1 input)**  
+- **10 kΩ resistor → GPIO32 → GND**
+
+**Logic:**
+
+Rx = 10k × (3.3V - Vnode) / Vnode
+
 Continuity = **YES** if Rx ≤ 600 Ω
 
 ---
