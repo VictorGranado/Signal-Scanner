@@ -11,11 +11,6 @@ It combines **digital wireless analysis** (Wi-Fi, BLE, RF, EMF) with **electrica
 
 Designed for **embedded developers, electronics hobbyists, and field engineers**, it provides a portable, menu-driven platform for analyzing and visualizing multiple signal domains in real time.
 
-The device features:
-- **20×4 I²C LCD** → text display, measurements, and mode info  
-- **0.96″ OLED (SSD1306)** → live waveforms, bar graphs, and visual indicators  
-- **MODE** and **SCROLL** buttons for navigation and interaction  
-
 ---
 
 ## **Features**
