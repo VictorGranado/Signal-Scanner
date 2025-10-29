@@ -1,6 +1,6 @@
 # **Signal Scanner v1.0**
 
-A multifunction handheld diagnostic and signal analysis tool for wireless scanning, RF detection, and basic electrical measurements.
+A multifunction handheld diagnostic and signal analysis tool for wireless scanning, RF detection, and basic electrical/electricmagnectic measurements.
 
 ---
 
