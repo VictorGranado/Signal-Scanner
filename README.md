@@ -11,7 +11,7 @@ It combines **digital wireless analysis** (Wi-Fi, BLE, RF, EMF) with **electrica
 
 Designed for **embedded developers, electronics hobbyists, and field engineers**, it provides a portable, menu-driven platform for analyzing and visualizing multiple signal domains in real time.
 
-![Alt text]()
+![Alt text](20251119_133702.jpg)
 
 ---
 
