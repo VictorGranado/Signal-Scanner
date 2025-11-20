@@ -227,6 +227,8 @@ Measures signal frequency via SMA or wired input.
 | EMF Reader | Responds to nearby EMF sources | ✅ |
 | Frequency Counter | Stable frequency readings | ✅ |
 
+![Alt text]()
+
 ---
 
 ## **Future Enhancements**
