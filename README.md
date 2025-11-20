@@ -149,7 +149,7 @@ Measures signal frequency via SMA or wired input.
   - Voltage/Current/RF → pause/resume plot  
   - RF → long press → capture calibration point
 
-![Alt text](20251119_133702.jpg)
+![Alt text](20251119_134348.jpg)
 
 ---
 
