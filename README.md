@@ -169,7 +169,7 @@ Measures signal frequency via SMA or wired input.
 | Mode & Scroll Buttons | UI control | GPIO2, GPIO4 |
 | Li-Ion Battery + Charger | Power source | — |
 
-![Alt text](WhatsApp Image 2026-05-24 at 19.28.02 (4).jpeg)
+![Alt text](https://github.com/VictorGranado/Signal-Scanner/blob/c04783a9d68ac942b6dcf5f209c263bf3724aa58/WhatsApp%20Image%202026-05-24%20at%2019.28.02%20(4).jpeg)
 ---
 
 ## **Connection Configurations**
