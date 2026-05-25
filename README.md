@@ -169,6 +169,7 @@ Measures signal frequency via SMA or wired input.
 | Mode & Scroll Buttons | UI control | GPIO2, GPIO4 |
 | Li-Ion Battery + Charger | Power source | — |
 
+![Alt text](20251119_133702.jpg)
 ---
 
 ## **Connection Configurations**
